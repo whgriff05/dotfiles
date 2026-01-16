@@ -25,6 +25,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 alias less="less -x4"
 alias ls="ls --color=auto"
 alias la="ls -lAh"
+alias skim="/Applications/Skim.app/Contents/MacOS/Skim"
 
 # Prompt
 NEWLINE=$'\n'
