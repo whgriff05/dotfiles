@@ -13,6 +13,7 @@ return {
             "make",
             "markdown",
             "markdown_inline",
+            "latex",
         })
     end
 }

@@ -5,3 +5,4 @@
 - Python LSP - __pyright__
 - Lua LSP - __lua-langauge-server__
 - C LSP - __clangd__
+- LaTeX LSP - __texlab__
