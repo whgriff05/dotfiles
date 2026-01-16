@@ -1,0 +1,8 @@
+font-family = Iosevka
+font-size = 20
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+theme = palenightfall
