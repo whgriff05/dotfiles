@@ -1,3 +1,6 @@
+# PATH Additions
+export PATH="/Library/TeX/texbin:$PATH"
+
 # Emacs vterm
 vterm_printf() {
     if [ -n "$TMUX" ] \
