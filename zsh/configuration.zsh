@@ -1,6 +1,6 @@
 # PATH Additions
 export PATH="/Library/TeX/texbin:$PATH"
-export PATH="~/opt:$PATH"
+export PATH="/opt/pymd:$PATH"
 
 # Emacs vterm
 vterm_printf() {
