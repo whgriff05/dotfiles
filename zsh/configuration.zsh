@@ -30,6 +30,7 @@ alias less="less -x4"
 alias ls="ls --color=auto"
 alias la="ls -lAh"
 alias skim="/Applications/Skim.app/Contents/MacOS/Skim"
+alias bat="bat --theme=ansi"
 
 # Prompt
 NEWLINE=$'\n'
