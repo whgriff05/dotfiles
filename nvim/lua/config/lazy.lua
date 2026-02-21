@@ -22,3 +22,9 @@ require("lazy").setup({
   },
   change_detection = { notify = false },
 })
+
+
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = { 'c', 'cpp', 'lua', 'python', 'make', 'markdown', 'latex' },
+  callback = function() vim.treesitter.start() end,
+})
