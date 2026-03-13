@@ -2,7 +2,7 @@
 *by Will Griffin, 2026*
 
 ## Downloads
-[macOS](http://git-scm.com/download/mac) (although git may be installed, run `git -v` in the shell)
+[macOS](http://git-scm.com/download/mac) (although git may be installed, run `git -v` in the shell)\
 [Windows](https://gitforwindows.org/)
 
 ## Overview of Git
