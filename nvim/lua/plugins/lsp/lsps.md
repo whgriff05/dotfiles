@@ -6,3 +6,5 @@
 - Lua LSP - __lua-langauge-server__
 - C LSP - __clangd__
 - LaTeX LSP - __texlab__
+- CSS LSP - __css-lsp__
+- HTML LSP - __html-lsp__

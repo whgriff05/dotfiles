@@ -8,6 +8,8 @@ return {
            "lua_ls",
            "clangd",
            "texlab",
+           "cssls",
+           "html",
         },
     },
     dependencies = {

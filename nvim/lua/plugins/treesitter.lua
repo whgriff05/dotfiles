@@ -14,6 +14,8 @@ return {
             "markdown",
             "markdown_inline",
             "latex",
+            "css",
+            "html",
         })
     end
 }
