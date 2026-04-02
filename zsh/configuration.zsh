@@ -32,7 +32,7 @@ alias la="ls -lAh"
 alias skim="/Applications/Skim.app/Contents/MacOS/Skim"
 alias bat="bat --theme=ansi"
 alias grep="grep --color=auto"
-alias gcc="/opt/homebrew/bin/gcc"
+alias mosh="mosh -p 60001"
 
 # Prompt
 NEWLINE=$'\n'
