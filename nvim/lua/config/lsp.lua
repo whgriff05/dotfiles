@@ -48,6 +48,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
         opts.desc = "Restart LSP"
         keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
+
+        opts.desc = "Show function signature"
+        keymap.set("n", "<leader>k", function() vim.lsp.buf.signature_help() end, opts) -- show function signature
     end
 })
 
