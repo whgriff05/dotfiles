@@ -10,6 +10,8 @@ return {
            "texlab",
            "cssls",
            "html",
+           "gopls",
+           "rust_analyzer",
         },
     },
     dependencies = {

@@ -8,3 +8,5 @@
 - LaTeX LSP - __texlab__
 - CSS LSP - __css-lsp__
 - HTML LSP - __html-lsp__
+- Go LSP - __gopls__
+- Rust LSP - __rust_analyzer__

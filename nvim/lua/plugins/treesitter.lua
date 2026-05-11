@@ -16,6 +16,8 @@ return {
             "latex",
             "css",
             "html",
+            "go",
+            "rust",
         })
     end
 }

@@ -65,3 +65,13 @@ vim.diagnostic.config({
         }
     }
 })
+
+vim.lsp.set_log_level("error")
+
+local original_notify = vim.notify
+vim.notify = function(msg, level, opts) 
+    if msg:find("request handler panicked") then
+        return
+    end
+    original_notify(msg, level, opts)
+end
