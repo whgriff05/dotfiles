@@ -33,6 +33,9 @@ alias skim="/Applications/Skim.app/Contents/MacOS/Skim"
 alias bat="bat --theme=ansi"
 alias grep="grep --color=auto"
 alias mosh="mosh -p 60001"
+if command -v npx &>/dev/null; then
+    alias marp="npx @marp-team/marp-cli@latest"
+fi
 
 # Prompt
 NEWLINE=$'\n'
