@@ -8,3 +8,4 @@ font-feature = -dlig
 theme = palenightfall
 
 keybind = performable:ctrl+c=copy_to_clipboard
+clipboard-paste-protection = false
